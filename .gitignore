@@ -1,0 +1,63 @@
+# ---- Virtual Environment ----
+venv/
+env/
+.env/
+
+# ---- Python Cache ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ---- IDE / Editor Settings ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Environment / Secrets ----
+.env
+*.env
+
+# ---- Jupyter Notebook Checkpoints ----
+**/.ipynb_checkpoints/
+
+# ---- Packages / Build ----
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ---- Logs ----
+*.log
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- PyInstaller ----
+*.spec
+
+# ---- Misc ----
+# Byte-compiled / optimized / DLL files
+*.so
+
+# ---- Wheel ----
+*.whl
+
+# ---- Python REPL history ----
+.python_history
+
+# ---- MyPy / Static Analysis ----
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# ---- Coverage ----
+htmlcov/
+.coverage
+.cache
+coverage.xml
+
+# ---- Test Cache ----
+.pytest_cache/
